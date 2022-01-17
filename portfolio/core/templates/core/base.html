@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
-    <link rel="stylesheet" href="{% static 'css/all.min.css' %}" >
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" >
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/all.min.css' %}" >
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css' %}" >
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
     <title>Aladdin</title>
 </head>
 <body>
@@ -17,7 +17,9 @@
         <div class="row">
             {% include 'core/sidebar.html' %}
             {% include 'core/home.html' %}
-            {% include 'core/projects.html' %}
+            <section>
+                {% include 'core/projects.html' %}
+            </section>
             {% include 'core/resume.html' %}
         </div>
     </div>
