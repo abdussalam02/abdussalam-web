@@ -86,19 +86,14 @@ h3{
 }
 
 #intro {
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 500px;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 500px;
 }
 
 #background {
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-#person {
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
 }
 
 /* Animations */
